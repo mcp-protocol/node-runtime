@@ -1,0 +1,31 @@
+{
+  "name": "@mcp-protocol/node-runtime",
+  "version": "1.0.1",
+  "mcpName": "io.github.mcp-protocol/node-runtime",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mcp-node-runtime": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Official Node.js runtime and transport layer for Model Context Protocol (MCP) integrations. Providing high-performance context relay and resource management.",
+  "devDependencies": {
+    "@types/node": "^22.19.2",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcp-protocol/node-runtime.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3"
+  }
+}
