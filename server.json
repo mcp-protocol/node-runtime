@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.mcp-protocol/node-runtime",
-  "description": "This package is intended for demonstration purposes only and is not for production use. Maintained by JFrog Security for simulation purposes.",
+  "description": "This package is intended for demonstration only. Maintained by JFrog Security.",
   "repository": {
     "url": "https://github.com/mcp-protocol/node-runtime",
     "source": "github"
