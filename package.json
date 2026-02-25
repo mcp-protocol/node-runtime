@@ -1,6 +1,6 @@
 {
   "name": "@mcp-protocol/node-runtime",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "mcpName": "io.github.mcp-protocol/node-runtime",
   "main": "index.js",
   "type": "module",
@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "description": "Official Node.js runtime and transport layer for Model Context Protocol (MCP) integrations. Providing high-performance context relay and resource management.",
+  "description": "This package is intended for demonstration purposes only and is not for production use. Maintained by JFrog Security for simulation purposes.",
   "devDependencies": {
     "@types/node": "^22.19.2",
     "typescript": "^5.9.3"

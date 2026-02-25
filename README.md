@@ -1,18 +1,9 @@
-# @mcp-protocol/node-runtime
+# @mcp-protocol/node-runtime (Simulation)
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.0-blue)](https://www.npmjs.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+**Note: This package is part of a security research demonstration by JFrog.**
 
-A specialized runtime environment for the **Model Context Protocol (MCP)**. This package provides a high-performance bridge between Large Language Models (LLMs) and local data sources, ensuring low-latency context relay and secure socket management for Node.js integrations.
+## Overview
+This repository contains a functional implementation of an MCP (Model Context Protocol) runtime used to simulate supply-chain security scenarios in AI-driven environments.
 
-## Key Features
-
-* **Full Support**: Complete implementation of the MCP JSON-RPC 2.0 standard.
-* **Optimized Relay**: Minimal overhead for streaming context-heavy responses.
-* **Pluggable Transport**: Support for stdio, SSE, and custom WebSocket transports.
-* **Resource Management**: Built-in lifecycle management for local context resources.
-
-## Installation
-
-```bash
-npm install @mcp-protocol/node-runtime
+## Important Information
+This repository and the associated package are part of a security simulation and research project. It is **not intended for production environments** or general-purpose use.

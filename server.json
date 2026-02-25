@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.mcp-protocol/node-runtime",
-  "description": "Official Node.js runtime and transport layer for Model Context Protocol (MCP) integrations",
+  "description": "This package is intended for demonstration purposes only and is not for production use. Maintained by JFrog Security for simulation purposes.",
   "repository": {
     "url": "https://github.com/mcp-protocol/node-runtime",
     "source": "github"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@mcp-protocol/node-runtime",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "transport": {
         "type": "stdio"
       }
